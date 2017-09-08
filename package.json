@@ -1,0 +1,16 @@
+{
+  "name": "@jacobmischka/to-words",
+  "version": "1.0.0",
+  "description": "Small words utils",
+  "module": "index.js",
+  "main": "dist/index.cjs",
+  "repository": "https://github.com/jacobmischka/to-words.git",
+  "author": "Jacob Mischka <jacob@mischka.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup index.js --output.format cjs --output.file dist/index.cjs.js"
+  },
+  "devDependencies": {
+    "rollup": "^0.49.3"
+  }
+}
