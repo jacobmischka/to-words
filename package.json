@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Small words utils",
   "module": "index.js",
-  "main": "dist/index.cjs",
+  "main": "dist/index.cjs.js",
   "repository": "https://github.com/jacobmischka/to-words.git",
   "author": "Jacob Mischka <jacob@mischka.me>",
   "license": "MIT",
