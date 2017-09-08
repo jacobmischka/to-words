@@ -10,6 +10,10 @@
   "scripts": {
     "build": "rollup index.js --output.format cjs --output.file dist/index.cjs.js"
   },
+  "files": [
+	"index.js",
+	"dist/index.cjs.js"
+  ],
   "devDependencies": {
     "rollup": "^0.49.3"
   }
